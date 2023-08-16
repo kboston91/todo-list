@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.todo-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.new-subtask {
+  margin-top: 8px;
+}
+
+#subtask.completed {
+  text-decoration: line-through;
+}

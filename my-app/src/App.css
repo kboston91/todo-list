@@ -12,27 +12,44 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* App.css */
+body {
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  color: #007bff; /* Blue color for headers */
+  margin-bottom: 20px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.todo-item .list-group-item {
+  background-color: #f8f9fa; /* Grey color for items */
+  color: #343a40;
+  font-weight: bold;
+  border: none;
+}
+
+.subtask {
+  color: #6c757d; /* Grey color for subtasks */
+}
+
+.completed {
+  text-decoration: line-through;
 }
